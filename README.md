@@ -1,31 +1,31 @@
-# Adonis fullstack application
+# SyncVote Rest API
 
-This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
+Nodejs (TypeScript)
 
-1. Bodyparser
-2. Session
-3. Authentication
-4. Web security middleware
-5. CORS
-6. Edge template engine
-7. Lucid ORM
-8. Migrations and seeds
 
-## Setup
+## Installation
 
-Use the adonis command to install the blueprint
+Install the project dependencies
 
 ```bash
-adonis new yardstick
+npm install
 ```
 
-or manually clone the repo and then run `npm install`.
+## Developing
+
+Copy **.env.example** and name it **.env** and set the env variables.
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:8080](http://localhost:8080) with your browser to see the result.
 
 
-### Migrations
+### Create a new admin
 
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
+```bash
+npm run create-admin
 ```
