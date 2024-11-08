@@ -21,7 +21,7 @@ Run the development server:
 npm run dev
 ```
 
-Open [http://localhost:8080](http://localhost:8080) with your browser to see the result.
+Open [http://localhost:8080](http://localhost:8080) with your browser to see the result
 
 
 ### Create a new admin
